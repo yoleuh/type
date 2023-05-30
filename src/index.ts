@@ -1,1 +1,4 @@
-console.log("hi");
+function greet(name: string) {
+  console.log("Hello, " + name.toUpperCase() + "!!");
+}
+greet("br");

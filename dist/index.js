@@ -1,2 +1,5 @@
 "use strict";
-console.log("hi");
+function greet(name) {
+    console.log("Hello, " + name.toUpperCase() + "!!");
+}
+greet("br");
